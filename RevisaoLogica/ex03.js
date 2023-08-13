@@ -9,3 +9,4 @@ function primo(numero) {
 }
 
 primo(7)
+primo(10)

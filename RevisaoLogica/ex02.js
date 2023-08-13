@@ -9,4 +9,6 @@ function fatorial(numero) {
         console.log(`${original} = ${numero}`)
     }
 }
-fatorial(6)
+
+fatorial(5)
+fatorial(0)

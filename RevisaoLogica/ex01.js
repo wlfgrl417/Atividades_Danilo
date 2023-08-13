@@ -6,4 +6,5 @@ function parImpar(numero) {
     }
 }
 
-parImpar(2)
+parImpar(3)
+parImpar(8)
