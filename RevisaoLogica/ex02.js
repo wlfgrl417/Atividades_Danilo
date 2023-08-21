@@ -1,6 +1,6 @@
 function fatorial(numero) {
-    original = numero
-    for(var i = numero-1; i>1; i--) {
+    let original = numero
+    for(let i = numero-1; i>1; i--) {
         numero *= i
     }
     if(original==0) {
@@ -10,5 +10,5 @@ function fatorial(numero) {
     }
 }
 
-fatorial(5)
+fatorial()
 fatorial(0)

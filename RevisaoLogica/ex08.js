@@ -27,8 +27,8 @@
 // contarVogais("maçâ")
 
 function contarVogais(mensagem) {
-    var quantidadeVogais = 0
-    var listaVogais = "aAeEiIoOuUÁáÀàÂâÃãÉéÈèÊêÍíÌìîîÓóÒòÕõÔôÙùÚúÛû"
+    let quantidadeVogais = 0
+    let listaVogais = "aAeEiIoOuUÁáÀàÂâÃãÉéÈèÊêÍíÌìîîÓóÒòÕõÔôÙùÚúÛû"
     for(var letra in mensagem)  {
         for(var vogal in listaVogais) {
             if(mensagem[letra] == listaVogais[vogal]) {
