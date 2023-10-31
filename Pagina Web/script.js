@@ -4,14 +4,9 @@ function verificar()
 {
     console.log(alter)
 
-    if(alter%2==0)
-    {
-        console.log("cu")
+    if(alter%2==0) {
         document.body.style.background = "#000000"
-    } 
-    else
-    {
-        console.log("ainn")
+    } else {
         document.body.style.background = "#00000000"
     }
 
